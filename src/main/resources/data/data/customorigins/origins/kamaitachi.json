@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"customorigins:increased_speed"
+	],
+	"icon": "minecraft:iron_hoe",
+	"order": 11,
+	"impact": 3,
+	"name": "Kamaitachi",
+	"description": "help"
+}
