@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "customsmp2",
+  "version": "${version}",
+  "name": "CustomSMP2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/customsmp2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "customsmp2.customsmp2.client.CustomSMP2Client"
+    ],
+    "main": [
+      "customsmp2.customsmp2.CustomSMP2"
+    ]
+  },
+  "mixins": [
+    "CustomSMP2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
