@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"customorigins:transparent_skin",
+                                "customorigins:invincible",
+                                "customorigins:pathetic"
+	],
+	"icon": "minecraft:air",
+	"order": 10,
+	"impact": 3,
+	"name": "hallam has not given a name",
+	"description": "help"
+}
