@@ -1,7 +1,9 @@
 {
 	"powers": [
 		"customorigins:increased_speed",
-		"customorigins:half_health"
+		"customorigins:half_health",
+                                "origins:no_shield",
+                                "origins:carnivore"
 	],
 	"icon": "minecraft:iron_hoe",
 	"order": 11,
