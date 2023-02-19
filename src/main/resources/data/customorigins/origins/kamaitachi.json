@@ -1,7 +1,8 @@
 {
 	"powers": [
-		"customorigins:increased_speed",
-		"customorigins:half_health",
+                                "customorigins:increased_speed",
+                                "customorigins:half_health",
+                                "customorigins:1_block_high",
                                 "origins:no_shield",
                                 "origins:carnivore"
 	],
