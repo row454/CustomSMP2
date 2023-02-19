@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"customorigins:increased_speed"
+		"customorigins:increased_speed",
+		"customorigins:half_health"
 	],
 	"icon": "minecraft:iron_hoe",
 	"order": 11,
