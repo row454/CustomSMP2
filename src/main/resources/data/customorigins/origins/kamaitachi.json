@@ -3,7 +3,7 @@
                                 "customorigins:increased_speed",
                                 "customorigins:half_health",
                                 "customorigins:1_block_high",
-                                "origins:no_shield_or_bows",
+                                "customorigins:no_shield_or_bows",
                                 "origins:carnivore"
 	],
 	"icon": "minecraft:iron_hoe",
