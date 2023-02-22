@@ -4,6 +4,7 @@
                                 "customorigins:half_health",
                                 "customorigins:1_block_high",
                                 "customorigins:no_shield_or_bows",
+                                "customorigins:double_damage_with_hand",
                                 "origins:carnivore"
 	],
 	"icon": "minecraft:iron_hoe",
