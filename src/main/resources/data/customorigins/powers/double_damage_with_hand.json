@@ -6,13 +6,13 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "empty"
+                "type": "origins:empty"
                 }
             }
         },
     "modifer": {
         "attribute": "minecraft:generic.attack_damage",
-        "operation": "addition",
-        "value": 5
+        "operation": "multiply_total",
+        "value": 1
     }
 }
