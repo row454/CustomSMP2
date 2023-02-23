@@ -1,10 +1,13 @@
 {
     "type": "origins:modify_damage_dealt" ,
-    "condition": {
-        "type": "origins:equipped_item",
-        "equipment_slot": "mainhand",
-        "item_condition": {
-            "type": "empty"
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "empty"
+                }
             }
         },
     "modifer": {
