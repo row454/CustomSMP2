@@ -12,7 +12,7 @@
         },
     "modifer": {
         "attribute": "minecraft:generic.attack_damage",
-        "operation": "multiply_total",
-        "value": 1
+        "operation": "addition",
+        "value": 5
     }
 }
