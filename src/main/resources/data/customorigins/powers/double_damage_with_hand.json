@@ -1,15 +1,20 @@
 {
     "type": "origins:action_on_hit" ,
-    "condition": {
-        "type": "origins:equipped_item",
-        "equipment_slot": "mainhand",
-        "item_condition": {
-            "type": "origins:empty"
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
         }
     },
-    "modifer": {
-        "attribute": "minecraft:generic.attack_damage",
-        "operation": "multiply_total",
-        "value": 7
+    "bientity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "player"
+        }
     }
 }
