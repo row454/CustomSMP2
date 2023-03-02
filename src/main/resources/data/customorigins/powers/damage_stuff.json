@@ -23,7 +23,7 @@
         "modifier": {
             "name": "Extra damage when holding no items in your hand",
             "operation": "addition",
-            "value": 1.0
+            "value": 2
         }
     },
     "hand_cooldown": {
@@ -31,7 +31,7 @@
         "modifier": {
             "attribute": "generic.attack_speed",
             "operation": "addition",
-            "value": -2
+            "value": -2.6
         },
         "tick_rate": 20,
         "condition": {
