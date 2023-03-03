@@ -28,6 +28,7 @@
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
-        }
+        },
+        "cooldown": 56
     }
 }
