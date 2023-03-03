@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"customorigins:4_hearts",
+	],
+	"icon": "minecraft:brown_mushroom",
+	"order": 12,
+	"impact": 3,
+	"name": "lyre bird",
+	"description": "josh why?"
+}
