@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"customorigins:4_hearts",
+        "customorigins:lyre_bird_flight"
 	],
 	"icon": "minecraft:brown_mushroom",
 	"order": 12,
