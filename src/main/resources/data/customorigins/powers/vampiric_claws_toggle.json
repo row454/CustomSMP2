@@ -8,11 +8,13 @@
         }
     },
     "hunger_and_saturation": {
-        "type": "origins:action_on_hit",
+        "type": "origins:multiple",
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
         },
+        "food": {
+            "type": "origins:action_on_hit",
         "bientity_action": {
             "type": "origins:actor_action",
             "action": {
@@ -21,10 +23,7 @@
                 "saturation": 1
             },
             "less_damage": {
-                "type": "origins:modify_damage_dealt",
-                "condition": {
-                    "type": "origins:power_active",
-                    "power": "*:*_toggle"
+                "type": "origins:modify_damage_dealt"
                 },
                 "modifier": {
                     "operation": "multiply_total_multiplicative",
