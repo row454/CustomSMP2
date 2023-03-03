@@ -16,18 +16,18 @@
         "modifier": {
             "operation": "multiply_total_multiplicative",
             "value": -0.5
+        }
+    },
+    "hunger_and_saturation": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 3,
+            "saturation": 1
         },
-        "hunger_and_saturation": {
-            "type": "origins:self_action_on_hit",
-            "entity_action": {
-                "type": "origins:feed",
-                "food": 3,
-                "saturation": 1
-            },
-            "condition": {
-                "type": "origins:power_active",
-                "power": "*:*_toggle"
-            }
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
         }
     }
 }
