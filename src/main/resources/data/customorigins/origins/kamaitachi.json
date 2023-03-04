@@ -1,19 +1,20 @@
 {
-	"powers": [
-                                "customorigins:increased_speed",
-                                "customorigins:half_health",
-                                "customorigins:1_block_high",
-                                "customorigins:no_shield_or_bows",
-                                "customorigins:acrophilia",
-                                "customorigins:damage_stuff",
-                                "customorigins:elytranoelytra",
-                                "customorigins:vampiric_claws_toggle",
-                                "origins:fall_immunity",
-                                "origins:carnivore"
-	],
-	"icon": "minecraft:iron_hoe",
-	"order": 11,
-	"impact": 3,
-	"name": "Kamaitachi",
-	"description": "help"
+    "powers": [
+        "customorigins:increased_speed",
+        "customorigins:half_health",
+        "customorigins:1_block_high",
+        "customorigins:no_shield_or_bows",
+        "customorigins:acrophilia",
+        "customorigins:damage_stuff",
+        "customorigins:elytranoelytra",
+        "customorigins:vampiric_claws_toggle",
+        "customorigins:kamaitachi_dash",
+        "origins:fall_immunity",
+        "origins:carnivore"
+    ],
+    "icon": "minecraft:iron_hoe",
+    "order": 11,
+    "impact": 3,
+    "name": "Kamaitachi",
+    "description": "help"
 }

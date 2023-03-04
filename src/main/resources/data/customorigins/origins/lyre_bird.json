@@ -1,13 +1,13 @@
 {
-	"powers": [
-		"customorigins:4_hearts",
+    "powers": [
+        "customorigins:4_hearts",
         "customorigins:lyre_bird_flight",
         "customorigins:half_a_block_high",
         "origins:velvet_paws"
-	],
-	"icon": "minecraft:brown_mushroom",
-	"order": 12,
-	"impact": 3,
-	"name": "lyre bird",
-	"description": "josh why?"
+    ],
+    "icon": "minecraft:brown_mushroom",
+    "order": 12,
+    "impact": 3,
+    "name": "lyre bird",
+    "description": "josh why?"
 }
