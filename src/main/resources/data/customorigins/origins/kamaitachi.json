@@ -8,7 +8,7 @@
                                 "customorigins:damage_stuff",
                                 "customorigins:elytranoelytra",
                                 "customorigins:vampiric_claws_toggle",
-                                "origins:fall_imunity",
+                                "origins:fall_immunity",
                                 "origins:carnivore"
 	],
 	"icon": "minecraft:iron_hoe",
