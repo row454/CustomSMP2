@@ -2,14 +2,14 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "tp @s ^ ^ ^7",
-        "cooldown": 200
+        "command": "tp @s ^ ^ ^7"
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 2
     },
     "key": {
-        "key": "key.origins.secondary_active",
-        "hud_render": {
-            "should_render": true,
-            "bar_index": 3
-        }
+        "key": "key.origins.secondary_active"
     }
 }
