@@ -2,9 +2,10 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "tp @s ^ ^ ^7",
+        "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}",
         "cooldown": 20,
         "hud_render": {
+            "should_render": true,
             "bar_index": 3
         }
     },
