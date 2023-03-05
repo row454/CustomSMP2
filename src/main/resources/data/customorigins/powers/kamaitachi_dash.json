@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}",
+        "command": "tp @s ^ ^ ^7",
         "cooldown": 20,
         "hud_render": {
             "should_render": true,
@@ -10,6 +10,6 @@
         }
     },
     "key": {
-        "key": "key.secondary"
+        "key": "key.origins.secondary_active"
     }
 }
