@@ -4,25 +4,26 @@
         "type": "origins:raycast",
         "distance": 7,
         "entity": false,
+        "command_step": 0.2,
+        "command_along_ray": "particle minecraft:totem_of_undying",
         "shape_type": "collider",
         "fluid_handling": "none",
-        "command_at_hit": "tp @s ~ ~.8 ~",
+        "command_at_hit": "tp @s ~ ~ ~",
         "miss_action": {
             "type": "origins:and",
             "actions": [
                 {
                     "type": "origins:raycast",
                     "distance": 7,
-                    "block": false,
                     "command_step": 0.2,
-                    "command_along_ray": "particle minecraft:totem_of_undying",
+                    "shape_type": "collider",
+                    "fluid_handling": "none",
                     "bientity_action": {
                         "type": "origins:damage",
                         "amount": 3,
                         "source": {
                             "name": "player"
-                        },
-                        "command_at_hit": "say (hit)"
+                        }
                     }
                 },
                 {
@@ -34,6 +35,20 @@
                     "command": "tp @s ~ ~.8 ~"
                 }
             ]
+        },
+        "hit_action": {
+            "type": "origins:raycast",
+            "distance": 7,
+            "command_step": 0.2,
+            "shape_type": "collider",
+            "fluid_handling": "none",
+            "bientity_action": {
+                "type": "origins:damage",
+                "amount": 3,
+                "source": {
+                    "name": "player"
+                }
+            }
         }
     },
     "cooldown": 100,
