@@ -3,7 +3,9 @@
         "customorigins:4_hearts",
         "customorigins:lyre_bird_flight",
         "customorigins:half_a_block_high",
-        "origins:velvet_paws"
+        "customorigins:smol",
+        "origins:velvet_paws",
+        "origins:carnivore"
     ],
     "icon": "minecraft:brown_mushroom",
     "order": 12,
